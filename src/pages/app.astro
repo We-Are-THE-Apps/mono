@@ -1,0 +1,86 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="app">
+	<section class="mx-3 mt-1.5">
+		<h1 class="font-black text-5xl">Welcome back!</h1>
+		<p>
+			Start a new conversation today. Or edit your profile, just do what
+			you want!
+		</p>
+		<span class="block mt-2 font-bold uppercase">you logged in as:</span>
+		<div
+			class="shadow-lg flex justify-between items-center mt-0.5 p-5 rounded-lg border border-white border-opacity-5 bg-white bg-opacity-[0.02]"
+		>
+			<div class="flex justify-start items-center gap-3">
+				<div
+					class="bg-red-500 relative w-10 h-10 rounded-full flex justify-center items-center
+				before:absolute before:-right-0.5 before:-bottom-0.5 before:border-2 before:border-zinc-950 before:bg-emerald-500 before:w-4 before:h-4 before:rounded-full"
+				>
+					CS
+				</div>
+				<div class="flex flex-col items-start justify-center">
+					<b class="text-md">
+						Captain Superdev
+					</b>
+					<p class="text-sm">yazilimciyim fakat format da atarim</p>
+				</div>
+			</div>
+
+			<div class="flex justify-center items-center gap-2">
+				<button class="mainButton">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="size-6"
+						><path stroke="none" d="M0 0h24v24H0z" fill="none"
+						></path><path
+							d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6"
+						></path><path d="M9 17v1a3 3 0 0 0 6 0v-1"></path></svg
+					>
+				</button>
+				<button class="mainButton">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="size-6"
+						><path stroke="none" d="M0 0h24v24H0z" fill="none"
+						></path><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"
+						></path><path d="M6 21v-2a4 4 0 0 1 4 -4h3.5"
+						></path><path
+							d="M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39z"
+						></path></svg
+					>
+				</button>
+				<button class="mainButton">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="size-6"
+						><path stroke="none" d="M0 0h24v24H0z" fill="none"
+						></path><path
+							d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"
+						></path><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"
+						></path></svg
+					>
+				</button>
+			</div>
+		</div>
+	</section>
+</Layout>
